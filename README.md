@@ -1,2 +1,2 @@
 # Calculadora-Python-Tarea1
-C
+Calculadora con operaciones basicas hecha en python
