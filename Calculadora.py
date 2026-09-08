@@ -8,6 +8,10 @@ def multiplicacion (a, b):
 def division (a, b):
     return a/b
 
+def potencia(a: float, b: float) -> float:
+    """Calcula la potencia de la base a elevada al exponente b."""
+    return a ** b
+
 
 
 CalcActiva = True
