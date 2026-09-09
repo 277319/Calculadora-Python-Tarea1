@@ -28,8 +28,9 @@ def desea_continuar():
             print("Opción no válida. Ingrese 's' para continuar o 'n' para salir.")
 
 def raiz_cuadrada(a: float) -> float:
+    """Calcula la raíz cuadrada de un número y rechaza el input si es negativo."""
     if a < 0:
-        print ("Error: No se puede calcular con número negativo")
+        print("Error: No se puede calcular con número negativo")
         return "Error"
     return a ** 0.5
 
